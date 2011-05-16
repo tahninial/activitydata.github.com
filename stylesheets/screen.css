@@ -35,7 +35,9 @@ a { text-decoration: none; color: rgb(0,160,230); }
 a:hover { text-decoration: underline; color: rgb(0,160,230); }
 a: visited { color: rgb(0,115,160); }
 
-h1 { font-family: Rockwell, Georgia, Serif; font-size: 40px; line-height: 40px; float: left; color: white; }
+h1, h2, h3, h4, h5 { font-family: Rockwell, Georgia, Serif; }
+
+h1 { font-size: 40px; line-height: 40px; float: left; color: white; }
 h1 a, h1 a:hover, h1 a:visited { font-weight: normal; color: white; }
 
 p { margin-bottom: 10px; }
@@ -72,4 +74,5 @@ footer { color: white; }
 #projects li strong { font-family: Rockwell, Georgia, Serif; font-size: 20px; display: block; width: 100%; margin-bottom: 7px; }
 #projects li em { font-style: normal; font-size: 0.8em; line-height: normal; display: block; width: 100%; margin-top: 7px; }
 
-#blog { float: right; padding: 15px; color: white; width: 192px; height: 450px; background: rgb(0,160,230); margin: 15px 0; }
+#blog { float: right; padding: 15px; color: white; width: 192px; height: 450px; background: rgb(0,160,230); margin: 15px 0; color: white; }
+#blog a { color: white; font-weight: bold; }
